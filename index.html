@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping card</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a href="#" class="logo"
+          ><i class="fa-solid fa-bowl-food"></i>Food Delight</a
+        >
+      </div>
+      <div class="box">
+        <div id="cart-count">0</div>
+        <i id="icon1" class="fa-solid fa-cart-shopping"></i>
+      </div>
+      
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+         <!-- <div class="cart-box">
+            <img
+              src="images/pexels-chan-walrus-958546 (1).jpg"
+              height="100px"
+              width="100px"
+              class="cart-img"
+            />
+            <div class="detail-box">
+              <div class="cart-food-title">Chappathi</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                <div class="cart-amt">Rs.72</div>
+              </div>
+              <input type="number" value="1" class="cart-quantity" />
+            </div>
+            <i class="fa-solid fa-trash-can" class="cart-remove"></i>
+          </div>
+        </div>
+        -->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">Rs.0</div>
+        </div>
+        <button class="btn-buy">Place Order</button>
+        <i id="cart-close" class="fa-solid fa-rectangle-xmark"></i>
+      </div>
+    </header>
+    <div class="container">
+      <h2 class="title">Discover the Best Food</h2>
+      <div class="shop-content">
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-photomix-company-103566.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+          <h2 class="food-title">Pomogranate Juice</h2>
+          <span class="food-price">Rs.70</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-chan-walrus-958546 (1).jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+
+          <h2 class="food-title">Chappathi</h2>
+          <span class="food-price">Rs.250</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-marvin-ozz-2474658.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+          <h2 class="food-title">Samosa</h2>
+          <span class="food-price">Rs.50</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-dino-uniyal-14882284.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+          <h2 class="food-title">meals</h2>
+          <span class="food-price">Rs.100</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-jer-chung-2059151.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+
+          <h2 class="food-title">Omlete with chicken bread</h2>
+          <span class="food-price">Rs.350</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-jan-n-g-u-y-e-n-🍁-699953.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+
+          <h2 class="food-title">Noodles</h2>
+          <span class="food-price">Rs.70</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-marvin-ozz-2474661.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+
+          <h2 class="food-title">Naan</h2>
+          <span class="food-price">Rs.150</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-michael-morse-1339057.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+
+          <h2 class="food-title">Salad</h2>
+          <span class="food-price">Rs.150</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="food-content">
+          <div class="pic">
+            <img
+              src="images/pexels-rajesh-tp-1600711.jpg"
+              class="food-img"
+              height="500px"
+              width="400px"
+              alt=""
+            />
+          </div>
+
+          <h2 class="food-title">French Fry</h2>
+          <span class="food-price">Rs.70</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
